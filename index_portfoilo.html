@@ -19,18 +19,26 @@
   <body>
     <div class="Nav_bar">
       <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"> -->
-      <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color:#F0F0F0;">
-        <a class="navbar-brand" href="#">Beam's Portfolio</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-scrolled" style="background-color:#F0F0F0;">
+        <a class="navbar-brand js-scroll-trigger" href="#">Beam's Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-          <div class="navbar-nav ml-auto my-2 my-lg-0">
-            <a class="nav-item nav-link" href="#about_me">About<span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#about_me">Skills</a>
-            <a class="nav-item nav-link" href="#project">Projects</a>
-            <a class="nav-item nav-link" href="#">Contact</a>
-          </div>
+          <ul class="navbar-nav ml-auto my-2 my-lg-0">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about_me">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about_me">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#project">Project</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
       </nav>
     </div>
@@ -173,6 +181,29 @@
             </a>
           </div>
     </div>
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-ms-12">
+            <h1 class="text-center text-success mb-4 font-weight-normal center-block">Contact Me</h1>
+          </div>
+        </div> 
+
+        <div class="row">
+          <div class="col-md-6">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.297722054526!2d100.47943906465362!3d13.700409640380705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2987cdd9ae303%3A0xc14f0010bc0dd4e!2s240+Soi+Somdet+Phra+Chao+Tak+Sin+40%2C+Khwaeng+Dao+Khanong%2C+Khet+Thon+Buri%2C+Krung+Thep+Maha+Nakhon+10600!5e0!3m2!1sen!2sth!4v1556231515100!5m2!1sen!2sth" 
+              width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+          <div class="col-md-6">
+            <p class="lead"><strong>Address</strong></p>
+            <p><i class="fas fa-home" aria-hidden="true"></i> : 240(31/57) Soi Taksin 34 Daokanong Thonburi Bangkok 10600</p>
+            <p><i class="fas fa-phone" aria-hidden="true"></i> : 081-633-6088</p>
+            <p><i class="far fa-envelope" aria-hidden="true"></i> : sarin_beam30@hotmail.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

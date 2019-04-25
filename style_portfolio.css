@@ -258,6 +258,33 @@
     align-items: center;
 }
 
+/* Contact */
+#contact {
+    margin-bottom: 4vh;
+}
+
+#contact > .container  > .row > .col-ms-12 > h1 {
+    /* background-color: red; */
+    color: #000;
+    align-items: center; 
+    justify-content: center; 
+    margin-left: 2.5vw;
+    margin-top: 3vh;
+
+    font-weight: 250;
+}
+
+.text-success {
+    color: #000!important;
+    
+}
+
+.font-weight-normal {
+    font-weight: 300!important;
+}
+
+
+
 
 
 
