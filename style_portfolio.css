@@ -265,22 +265,22 @@
 
 #contact > .container  > .row > .col-ms-12 > h1 {
     /* background-color: red; */
-    color: #000;
+    color: #000!important;
     align-items: center; 
     justify-content: center; 
-    margin-left: 2.5vw;
-    margin-top: 3vh;
+    margin-left: 2.5vw!important;
+    margin-top: 3vh!important;
 
     font-weight: 250;
 }
 
 .text-success {
-    color: #000;
+    color: #000!important;
     
 }
 
 .font-weight-normal {
-    font-weight: 300;
+    font-weight: 300!important;
 }
 
 
