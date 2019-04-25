@@ -53,86 +53,6 @@
     position: relative;
 }
 
-/*
-.web_development_icon > i{
-    justify-content: center;
-    text-align: center;
-    /* TOP , LEFT && RIGHT , DOWN 
-    margin:  90px 100px 8.5px;
-    padding: 45px 0px 45px;
-
-    /* background: red;  
-    border-radius: 135px; 
-    border: 1px solid #000;
-    max-width: 310px;
-}
-
-.web_development_icon > p{
-    /* background: blue; 
-    /* (TOP,BOTTOM) , (RIGHT,LEFT) 
-    margin: 0 150px;
-    font-family: 'Merriweather', serif;
-    font-weight: 400;
-    /* font-size: 2.5vw; 
-}
-
-
-.web_development_icon{
-    position: absolute;
-    display: grid;
-}
-
-.responsive_design_icon > img{
-
-    /* top, right, bottom, left 
-    margin: 85px 0 8.7px 600px;
-
-    justify-content: center;
-    text-align: center;
-
-    border-radius: 135px; 
-    border: 1px solid #000;
-    max-width: 310px;
-}
-
-
-.responsive_design_icon > p{
-    /* background: blue;  
-    /* top, right, bottom , left 
-    margin: 0 0 0 660px;
-    font-family: 'Merriweather', serif;
-    font-weight: 400;
-    /* font-size: 2.5vw; 
-}
-
-.responsive_design_icon{
-    position: absolute;
-    display: grid;
-}
-
-.android_app_development_icon > i{
-    margin: 90px 0 8.5px 1150px;
-    /* TOP, RIGHT, BOTTOM, LEFT 
-    padding: 45px 65px 45px 65px;
-    justify-content: center;
-    text-align: center;
-
-    /* background: red;    
-    border-radius: 135px; 
-    border: 1px solid #000;
-
-    max-width: 310px;
-    
-}
-
-.android_app_development_icon > p {
-    margin: 0 0 0 1170px;
-    font-family: 'Merriweather', serif;
-    font-weight: 400;
-}
-
-*/
-
 /* GRID */
 .grid-wrapper {
     display: grid;
@@ -186,7 +106,7 @@
 }
 
 .android_app_development_icon {
-    padding: 30px 100px;
+    padding: 30px 25px;
     margin: 20px;
 
     position: relative;
@@ -269,6 +189,75 @@
     padding-bottom: 1%;
     font-family: medium-content-serif-font,Georgia,Cambria,"Times New Roman",Times,serif;
 }
+
+/* Project */
+.Project {
+    text-align: center;
+    justify-content: center;
+
+    background-image: url("http://www.ahmproduction.com/wp-content/uploads/2016/05/Gray-Comb-Texture.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: content;
+    position: relative;
+    height: max-content;
+    
+}
+
+.Project > h2{
+    position: relative;
+    color: 	#fff ;
+    padding-top: 4%;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 3.25vw;
+}
+
+.Project > .carousel {
+    position: grid;
+    margin-top: 0%;
+    margin-bottom: 4%;
+}
+
+.Project >.carousel > .carousel-inner > .carousel-item > img{
+    text-align: center;
+    justify-content: center;
+    max-width: 60vw;
+    max-height: 60vh;
+    margin: 7vh auto;
+}
+
+.Project > .carousel > .carousel-inner > .carousel-item > .mobile_app{
+    text-align: center;
+    justify-content: center;
+    max-width : 40vw; 
+    max-height : 85vh;
+    /* margin: .75vh 0vw 38vh 40vw; */
+    margin-top: 3.6vh;
+    margin-left: 40vw;
+    margin-bottom: 7.1vh;
+    padding: auto 50vw;
+}
+
+
+.Project >.carousel > .carousel-control-prev {
+    /* top right bottom left */
+    padding: 0 0 0 9.5vw;
+    /* (top, bottom) (left, right) */
+    margin: 0 3.5vw;
+    position: grid;
+    align-items: center;
+}
+
+
+.Project > .carousel > .carousel-control-next {
+    /* top right bottom left */
+    padding: 0 9.5vw 0 0;
+    /* (top, bottom) (left, right) */
+    margin: 0 3.5vw;
+    position: grid;
+    align-items: center;
+}
+
 
 
 
